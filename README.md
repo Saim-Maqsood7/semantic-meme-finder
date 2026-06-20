@@ -2,6 +2,9 @@
 
 A RAG-powered meme search engine. Search your meme collection using plain English.
 
+# You can check it out! it is live
+**live demo** = https://semantic-meme-finder-lmxpykk82q5z3fdzrswycg.streamlit.app/
+
 # How it works
 ```
 Image → Groq Vision LLM → FAISS Vector Index → Natural Language Search
