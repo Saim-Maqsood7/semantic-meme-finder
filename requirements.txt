@@ -1,0 +1,9 @@
+streamlit
+faiss-cpu
+sentence-transformers
+Pillow
+imagehash
+groq
+numpy
+torch
+torchvision
