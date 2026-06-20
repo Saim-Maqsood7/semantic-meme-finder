@@ -1,42 +1,31 @@
-# 🐸 Meme Finder
+# sementic meme finder
 
 A RAG-powered meme search engine. Search your meme collection using plain English.
 
-**Live Demo → [meme-finder on Streamlit](https://memeragtest-f5qg5isskxf2ec6vt3kva4.streamlit.app/)**
-
----
-
-## How it works
-
+# How it works
 ```
 Image → Groq Vision LLM → FAISS Vector Index → Natural Language Search
 ```
-
-## Features
+# Features
 - 🔍 Search by mood — *"dark humor"*, *"dad jokes"*, *"relatable"*
 - 🏷️ Auto metadata — title, category, emotion, funniness score
 - 🔁 Duplicate detection via image hashing
 - 💾 Index saved to disk — only builds once
 
-## Stack
-
+# Stack
 | Tool | Purpose |
 |------|---------|
 | Groq LLM (llama-4-scout) | Analyze meme visually |
 | FAISS | Vector similarity search |
 | Sentence Transformers | Text embeddings |
 | Streamlit | Web UI |
-
 ---
-
-## Run Locally
-
+# Run Locally
 **1. Clone the repo**
 ```bash
-git clone https://github.com/Muhammad-Shiraz/meme-finder
-cd meme-finder
+git clone https://github.com/Saim-Maqsood7/semantic-meme-finder
+cd sementic-meme-finder
 ```
-
 **2. Install dependencies**
 ```bash
 pip install -r requirements.txt
